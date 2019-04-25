@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: auto auto auto auto ;
+  color: black;
+  //grid-auto-rows: auto;
+  grid-gap: 10px;
+  grid-template-areas:
+  "one one"
+  "two two"
+  "three four"
+  "five five"
+ 
+
+}
+
+.grid div:nth-child(odd) {
+  background-color: white;
+}
+
+.grid div:nth-child(even) {
+  background-color: white;
+}
+
+ .one {
+   grid-area: one;
+   background-color: white;
+   justify-self: center ;
+ }
+ 
+
+ .two {
+  grid-area: one;
+   background-color: white;
+  
+
+ }
+ .two > img {
+  object-fit: cover;
+  width: 100%;
+  float:left;
+//  max-height: 100%;
+
+}
+
+.three {
+  grid-area: three;
+  background-color: #C0C3D2;
+  padding-left:30px;
+  padding-right:30px;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+.three > h1{
+  font-size: 200%;
+  padding: 10px;
+  font-family: cursive;
+  text-align: justify ;
+}
+.four {
+  grid-area: four;
+  background-color: #CFCAC6;
+    justify-self: right;
+}
+.five {
+  grid-area: five;
+  //justify-self: center ;
+  background-color: #333;
+}
+
+
