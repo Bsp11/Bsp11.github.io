@@ -1,6 +1,6 @@
 @font-face{
   font-family: 'abc';
-  src: url('/public/fonts/Roboto-Medium.ttf');
+  src: url('/fonts/Roboto-Medium.ttf');
 }
 
 
@@ -49,7 +49,7 @@ body{
 
       @font-face{
         font-family: 'abc';
-        src: url('/public/fonts/Roboto-Medium.ttf');
+        src: url('/fonts/Roboto-Medium.ttf');
       }
       
 body{
