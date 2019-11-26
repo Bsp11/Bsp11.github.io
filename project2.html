@@ -5,47 +5,41 @@
     <meta name="key" content="Myportfolio">
     <meta name="viewpot" content="shrink-to-fit, initial scale=1.0, width-device-width, height=device-height, minimum-scale=1.0, maximum-scale=1,0, user-scalable=no"/>
     
-    <link rel="stylesheet" type="text/css" href="public/css/project1.css">
+    <link rel="stylesheet" type="text/css" href="public/css/project2.css">
     <link rel="stylesheet" type="text/css" href="public/css/header.css">
     <link rel="stylesheet" type="text/css" href="public/css/footer.css">
     </head>
 
 <body>
+    
+    <div class="logo">
+        <div class="logo img">
+          <img src="/public/images/logo.JPG">
+        </div>
+      </div>
+    
+      <div class="topnav" id="myTopnav">
+          <a href="project.html"class="active">PROJECTS</a>
+        <a href="home.html" >HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <img height="20vw" width="20vw" src="/public/images/hamburger.png">
+        </a>
+      </div>
 
-        <div class="logo">
-            <div class="logo img">
-              <img src="/public/images/logo.JPG">
+        <div class="project2">
+            <div class="p2">
+                <img src="/public/images/i1.jpg"> 
+                <img src="/public/images/i2.jpg"> 
+                <img src="/public/images/i3.jpg"> 
+                <img src="/public/images/i4.jpg"> 
+                <img src="/public/images/i5.jpg"> 
             </div>
-          </div>
-        
-          <div class="topnav" id="myTopnav">
-              <a href="project.html"class="active">PROJECTS</a>
-            <a href="home.html" >HOME</a>
-            <a href="about.html">ABOUT</a>
-            <a href="contact.html">CONTACT</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <img height="20vw" width="20vw" src="/public/images/hamburger.png">
-            </a>
-          </div>
-        <div class="project1">
-            <div class="p1">
-                <img src="/public/images/p1.JPG"> 
-                <img src="/public/images/p2.JPG"> 
-                <img src="/public/images/p3.JPG"> 
-                <img src="/public/images/p4.JPG"> 
-                <img src="/public/images/p5.JPG"> 
-                <img src="/public/images/p6.JPG"> 
-                <img src="/public/images/p7.JPG">
-            </div>
-            <div class="last-p1">
-                <img src="/public/images/p11.jpg">
-                <img src="/public/images/p22.jpg">
+            <div class="back-icon">
+                    <a href="project.html"><img src="/public/images/left-arrow.png"></a>
+                 </div>
         </div>
-        <div class="back-icon">
-           <a href="project.html"><img src="/public/images/left-arrow.png"></a>
-        </div>
-        </div>
-
         <div class="footer">
                 <div class="footer-container">
                 <div class="address">
@@ -66,9 +60,8 @@
                     </div>
             </div>
             </div>
-            
-            
-                 <script>
+
+            <script>
                 function myFunction() {
                   var x = document.getElementById("myTopnav");
                   if (x.className === "topnav") {
